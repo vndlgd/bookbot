@@ -14,8 +14,6 @@ def main():
         sys.exit(1)
 
     book_text = get_book_text(book_path)
-    # print(get_num_words(book_text))
-    # print(get_num_char(book_text))
     print("============ BOOKBOT ============") 
     print(f'Analyzing book found at {book_path}...')
     print("----------- Word Count ----------")
